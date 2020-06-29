@@ -8,21 +8,23 @@
 <body>
   <!-- Шапка страницы -->
   <header>
-    <nav>
       <!-- Навигация на другие страницы -->
-      <ul>
-        <li><a href="">Web Studio</a></li>
-        <li><a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
-      </ul>
-    </nav>
+      <nav>
+          <ul>
+              <li><a href="">Web Studio</a></li>
+              <li><a href="">Студия</a></li>
+              <li><a href="">Портфолио</a></li>
+              <li><a href="">Контакты</a></li>
+          </ul>
+      </nav>
 
       <!-- Контакты -->
-      <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+38 096 111 11 11</a></li>
-      </ul>
+      <div>
+          <ul>
+            <li><a href="">info@devstudio.com</a></li>
+            <li><a href="">+38 096 111 11 11</a></li>
+          </ul>
+      </div>
   </header>
 
   <main>
@@ -31,23 +33,39 @@
       <h1>Эффективные решения для вашего бизнеса</h1>
       <a href="">Заказать услугу</a>
     </section>
-    
+
+    <!-- <h2>Наши приимущества</h2> -->
     <section>
-      <!-- <h2>Наши приимущества</h2> -->
       <ul>
-        <li><h3>Внимание к деталям</h3> <br /> <p>Идейные соображения, а также 
-            <br />начало повседневной работы по формированию <br />позиции.</p></li>
-        <li><h3>Пунктуальность</h3> <br /><p>Задача организации, в особенности 
-            <br />же рамки и место обучения кадров <br />влечет за собой.</p></li>
-        <li><h3>Планирование</h3> <br /><p>Равным образом консультация с 
-            <br />широким активом в значительной <br />степени обуславливает.</p></li>
-        <li><h3>Современные технологии</h3> <br /><p>Значимость этих проблем настолько 
-            <br />очевидна, что реализация плановых <br />заданий.</p></li>
+        <li>
+            <h3>Внимание к деталям</h3> 
+            <p>
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
+        </li>
+        <li>
+            <h3>Пунктуальность</h3>
+            <p>
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
+        </li>
+        <li>
+            <h3>Планирование</h3>
+            <p>
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
+        </li>
+        <li>
+            <h3>Современные технологии</h3>
+            <p>
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
+        </li>
       </ul>
     </section>
 
+    <!-- Что мы умеем/примеры работ -->
     <section>
-      <!-- Что мы умеем/примеры работ -->
       <h2>Чем мы занимаемся</h2>
       <ul>
         <li><img src="./images/section3-1.jpg" alt="секция3-1" width="370"/>
@@ -59,65 +77,98 @@
       </ul> 
     </section>
 
+    <!-- Персонал -->
     <section>
-      <!-- Персонал -->
-
       <h2>Наша команда</h2>
       <ul>
-            <li><img src="./images/foto1.jpg" alt="фото1" width="270"/>
-            <h3>Николай Кучеренко</h3><p>Product Designerv</p></li>
-            <li><a href=""><img src="./images/instagram.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/twitter.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/facebook.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/linkedin.svg" alt=""/></a></li>
-        <li><img src="./images/foto2.jpg" alt="фото2" width="270"/>
-            <h3>Ольга Иванова </h3><p>Frontend Developer</p></li>
-            <li><a href=""><img src="./images/instagram.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/twitter.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/facebook.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/linkedin.svg" alt=""/></a></li>
-        <li><img src="./images/foto3.jpg" alt="фото3" width="270"/>
-            <h3>Андрей Шевченко </h3><p>Marketing</p></li>
-            <li><a href=""><img src="./images/instagram.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/twitter.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/facebook.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/linkedin.svg" alt=""/></a></li>
-        <li><img src="./images/foto4.jpg" alt="фото4" width="270"/>
-            <h3>Иван Николаев </h3><p>UI Designer</p></li>
-            <li><a href=""><img src="./images/instagram.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/twitter.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/facebook.svg" alt=""/></a></li>
-            <li><a href=""><img src="./images/linkedin.svg" alt=""/></a></li>
+          <li><img src="./images/foto1.jpg" alt="фото1" width="270"/>
+            <h3>Николай Кучеренко</h3>
+            <p>Product Designerv</p>
+              <ul>
+                <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
+                <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
+                <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
+                <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+              </ul>
+          </li>  
+          <li><img src="./images/foto1.jpg" alt="фото1" width="270"/>
+            <h3>Ольга Иванова</h3>
+            <p>Frontend Developer</p>
+              <ul>
+                <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
+                <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
+                <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
+                <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+              </ul>
+          </li>
+          <li><img src="./images/foto1.jpg" alt="фото1" width="270"/>
+            <h3>Андрей Шевченко</h3>
+            <p>Marketing</p>
+              <ul>
+                <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
+                <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
+                <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
+                <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+              </ul>
+          </li>
+          <li><img src="./images/foto1.jpg" alt="фото1" width="270"/>
+            <h3>Иван Николаев</h3>
+            <p>UI Designer</p>
+              <ul>
+                <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
+                <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
+                <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
+                <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+              </ul> 
+          </li>
       </ul> 
+
     </section>
 
+    <!-- Логотипы -->
     <section>
-      <!-- Логотипы -->
       <h2>Постоянные клиенты</h2>
       <ul>
-        <li><img src="./images/logo1.svg" alt="logo1"/></li>
-        <li><img src="./images/logo2.svg" alt="logo2"/></li>
-        <li><img src="./images/logo3.svg" alt="logo3"/></li>
-        <li><img src="./images/logo4.svg" alt="logo4"/></li>
-        <li><img src="./images/logo5.svg" alt="logo5"/></li>
-        <li><img src="./images/logo6.svg" alt="logo6"/></li>        
+        <li><img src="./images/logo1.svg" alt="логотип1"/></li>
+        <li><img src="./images/logo2.svg" alt="логотип2"/></li>
+        <li><img src="./images/logo3.svg" alt="логотип3"/></li>
+        <li><img src="./images/logo4.svg" alt="логотип4"/></li>
+        <li><img src="./images/logo5.svg" alt="логотип5"/></li>
+        <li><img src="./images/logo6.svg" alt="логотип6"/></li>        
       </ul> 
     </section>
-
+    
   </main>
+
+  <!-- Подвал -->
   <footer>
-    <!-- Подвал -->
-    <ul>
-        <li><a href="">Web Studio</a></li>
-        <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+38 096 111 11 11</a></li>
-        <li><h3>присоединяйтесь</h3><a href=""><img src="./images/instagram.svg" alt=""/></a></li>
-        <li><a href=""><img src="./images/twitter.svg" alt=""/></a></li>
-        <li><a href=""><img src="./images/facebook.svg" alt=""/></a></li>
-        <li><a href=""><img src="./images/linkedin.svg" alt=""/></a></li>
-        <li><h3>Подпишитесь на рассылку</h3><a href="">Подписаться</a></li>
-    </ul>
+      <div>
+        <p><a href="">Web Studio</a></p>
+          <address>
+              г. Киев, Бульвар Леси Украинки, д. 26
+          </address>
+          
+          <address>
+              <a href="mailto:info@example.com">info@example.com</a> <br/>
+              <a href="tel:+380991111111">+38 099 111 11 11</a>
+          </address>
+      </div>
+    
+
+      <div>
+        <b>присоединяйтесь</b>
+        <ul>
+            <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
+            <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
+            <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
+            <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <b>Подпишитесь на рассылку</b><a href="">Подписаться</a>
+      </div>
+    
   </footer>
 </body>
 </html>
