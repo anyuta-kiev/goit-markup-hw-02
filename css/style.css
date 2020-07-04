@@ -3,6 +3,8 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --text-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
 }
 
 body {
@@ -10,7 +12,41 @@ body {
   color: var(--primary-text-color);
 }
 
-h2,
+ul {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.nav-contacts a {
+  color: var(--primary-text-color);
+}
+
+.personal {
+  background-color: var(--secondary-bg-color);
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+}
+
+.addres {
+  color: var(--secondary-bg-color);
+}
+
+h2 {
+  color: var(--title-text-color);
+}
+
 h3 {
   color: var(--title-text-color);
 }
