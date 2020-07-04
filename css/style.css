@@ -31,6 +31,16 @@ ul {
   color: var(--primary-text-color);
 }
 
+.button {
+  color: var(--text-bg-color);
+  background-color: var(--accent-color);
+}
+
+.button.footer {
+  color: var(--text-bg-color);
+  background-color: var(--accent-color);
+}
+
 .personal {
   background-color: var(--secondary-bg-color);
 }
