@@ -45,6 +45,11 @@ ul {
   background-color: var(--accent-color);
 }
 
+.button-portfolio {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
 .personal {
   background-color: var(--secondary-bg-color);
 }
