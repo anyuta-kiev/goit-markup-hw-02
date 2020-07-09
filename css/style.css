@@ -1,0 +1,32 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --text-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+}
+
+body {
+  background-color: var(--text-bg-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.contacts-nav .link {
+  color: var(--primary-text-color);
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus,
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
