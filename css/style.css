@@ -30,3 +30,30 @@ ul {
 .contacts-nav .link:focus {
   color: var(--accent-color);
 }
+
+.accent {
+  color: var(--accent-color);
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+h1 {
+  color: var(--text-bg-color);
+}
+
+.our-comand {
+  background-color: var(--secondary-bg-color);
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+  color: var(--text-bg-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--text-bg-color);
+}
