@@ -53,7 +53,25 @@ footer {
   color: var(--text-bg-color);
 }
 
-.button {
+.button-studio {
   background-color: var(--accent-color);
   color: var(--text-bg-color);
+}
+
+.button-portfolio {
+  background-color: var(--secondary-bg-color);
+  color: var(--title-text-color);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-color);
+  color: var(--text-bg-color);
+}
+.accent-white {
+  color: var(--text-bg-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
 }
