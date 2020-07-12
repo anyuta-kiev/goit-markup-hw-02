@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <!-- Шапка страницы -->
     <header class="page-header">
       <!-- Навигация на другие страницы -->
       <nav class="site-nav">
-        <a href="index.html"><span class="accent">Web</span> Studio</a>
+        <a href="index.html" class="logo"
+          ><span class="accent">Web</span
+          ><span class="accent-dark">Studio</span></a
+        >
         <ul class="page-nav">
           <li><a href="" class="link current">Студия</a></li>
           <li><a href="portfolio.html" class="link">Портфолио</a></li>
@@ -42,35 +50,37 @@
       <!-- Герой -->
       <section class="hero">
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <a href="">
+          <button class="button-studio">Заказать услугу</button>
+        </a>
       </section>
 
       <!-- <h2>Наши приимущества</h2> -->
-      <section>
+      <section class="details">
         <ul>
           <li>
-            <h3>Внимание к деталям</h3>
+            <h3 class="details-h3">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
+            <h3 class="details-h3">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
+            <h3 class="details-h3">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
+            <h3 class="details-h3">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -85,15 +95,21 @@
         <ul>
           <li>
             <img src="./images/sec-one.jpg" alt="секция1" width="370" />
-            <h3><span class="accent-white">Десктопные приложения</span></h3>
+            <h3 class="details-h3">
+              <span class="accent-white">Десктопные приложения</span>
+            </h3>
           </li>
           <li>
             <img src="./images/sec-two.jpg" alt="секция2" width="370" />
-            <h3><span class="accent-white">Мобильные приложения</span></h3>
+            <h3 class="details-h3">
+              <span class="accent-white">Мобильные приложения</span>
+            </h3>
           </li>
           <li>
             <img src="./images/sec-free.jpg" alt="секция3" width="370" />
-            <h3><span class="accent-white">Дизайнерские решения</span></h3>
+            <h3 class="details-h3">
+              <span class="accent-white">Дизайнерские решения</span>
+            </h3>
           </li>
         </ul>
       </section>
@@ -105,8 +121,8 @@
           <li>
             <a href="">
               <img src="./images/foto-nk.jpg" alt="фото1" width="270" />
-              <h3>Николай Кучеренко</h3>
-              <p>Product Designer</p>
+              <h3 class="name">Николай Кучеренко</h3>
+              <p class="profeshn">Product Designer</p>
             </a>
             <ul>
               <li>
@@ -154,8 +170,8 @@
           <li>
             <a href="">
               <img src="./images/foto-oi.jpg" alt="фото1" width="270" />
-              <h3>Ольга Иванова</h3>
-              <p>Frontend Developer</p>
+              <h3 class="name">Ольга Иванова</h3>
+              <p class="profeshn">Frontend Developer</p>
             </a>
             <ul>
               <li>
@@ -203,8 +219,8 @@
           <li>
             <a href="">
               <img src="./images/foto-ash.jpg" alt="фото1" width="270" />
-              <h3>Андрей Шевченко</h3>
-              <p>Marketing</p>
+              <h3 class="name">Андрей Шевченко</h3>
+              <p class="profeshn">Marketing</p>
             </a>
             <ul>
               <li>
@@ -252,8 +268,8 @@
           <li>
             <a href="">
               <img src="./images/foto-oi.jpg" alt="фото1" width="270" />
-              <h3>Иван Николаев</h3>
-              <p>UI Designer</p>
+              <h3 class="name">Иван Николаев</h3>
+              <p class="profeshn">UI Designer</p>
             </a>
             <ul>
               <li>
@@ -319,15 +335,21 @@
     <footer>
       <div>
         <p>
-          <a href=""><span class="accent">Web</span> Studio</a>
+          <a href="" class="logo"
+            ><span class="accent">Web</span>
+            <span class="accent-white">Studio</span></a
+          >
         </p>
-        <address>
+        <address class="our-address">
           г. Киев, Бульвар Леси Украинки, д. 26
         </address>
 
-        <address>
-          <a href="mailto:info@example.com">info@example.com</a> <br />
-          <a href="tel:+380991111111">+38 099 111 11 11</a>
+        <address class="addr-cont">
+          <a href="mailto:info@example.com" class="addr-cont"
+            >info@example.com</a
+          >
+          <br />
+          <a href="tel:+380991111111" class="addr-cont">+38 099 111 11 11</a>
         </address>
       </div>
 
