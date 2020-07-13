@@ -23,7 +23,7 @@ ul {
 
 .logo {
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -75,7 +75,7 @@ footer {
   background-color: var(--accent-color);
   color: var(--text-bg-color);
   letter-spacing: 0.06em;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -87,7 +87,6 @@ footer {
   background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -120,44 +119,41 @@ footer {
 }
 
 h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
 }
 
 .details-h3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
 }
 
 .details {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 
 .profeshn {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   color: var(--primary-text-color);
 }
 .our-address {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  font-style: normal;
 }
 
 .addr-cont {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
 }
 
 .name {
@@ -167,8 +163,7 @@ h2 {
 }
 
 .filter-header {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -176,14 +171,14 @@ h2 {
 }
 
 .filter-p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
 .filter-description {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
