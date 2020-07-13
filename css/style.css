@@ -19,6 +19,7 @@ ul {
 
 .site-nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .logo {
@@ -26,10 +27,16 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .contacts-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .page-nav .link:hover,
@@ -37,6 +44,7 @@ ul {
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .accent {
@@ -89,7 +97,7 @@ footer {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -99,8 +107,11 @@ footer {
   background-color: var(--accent-color);
   color: var(--text-bg-color);
 }
-.accent-white {
+.accent-white,
+.address-join {
   color: var(--text-bg-color);
+  /*временный что бы видеть белый текст*/
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .site-nav .link.current {
@@ -109,6 +120,7 @@ footer {
 
 .site-nav {
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav,
@@ -125,10 +137,13 @@ h2 {
   text-align: center;
 }
 
-.details-h3 {
+.details-h3,
+.accent-white {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .details {
@@ -147,13 +162,20 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .addr-cont {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.our-comand .link {
+  text-decoration: none;
 }
 
 .name {
@@ -167,7 +189,7 @@ h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .filter-p {
@@ -175,6 +197,7 @@ h2 {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 .filter-description {
@@ -182,4 +205,29 @@ h2 {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
+  color: var(--text-bg-color);
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+h1 {
+  fcolor: var(--text-bg-color);
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.logo-white {
+  color: var(--text-bg-color);
+}
+
+.address-join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--text-bg-color);
+  text-transform: uppercase;
 }

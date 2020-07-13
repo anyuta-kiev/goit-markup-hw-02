@@ -5,16 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <style>
-      a {
-        text-decoration: none;
-        /* Отменяем подчеркивание у ссылки */
-      }
-    </style>
   </head>
 
   <body>
@@ -56,10 +50,10 @@
       <!-- Герой -->
       <section class="hero">
         <h1>Эффективные решения для вашего бизнеса</h1>
-          
+
         <!-- <a href=""> -->
-          <button class="button-studio">Заказать услугу</button>
-        </a>
+        <button class="button-studio">Заказать услугу</button>
+        <!--</a>-->
       </section>
 
       <!-- <h2>Наши приимущества</h2> -->
@@ -102,21 +96,15 @@
         <ul>
           <li>
             <img src="./images/sec-one.jpg" alt="секция1" width="370" />
-            <h3 class="details-h3">
-              <span class="accent-white">Десктопные приложения</span>
-            </h3>
+            <h3 class="accent-white">Десктопные приложения</h3>
           </li>
           <li>
             <img src="./images/sec-two.jpg" alt="секция2" width="370" />
-            <h3 class="details-h3">
-              <span class="accent-white">Мобильные приложения</span>
-            </h3>
+            <h3 class="accent-white">Мобильные приложения</h3>
           </li>
           <li>
             <img src="./images/sec-free.jpg" alt="секция3" width="370" />
-            <h3 class="details-h3">
-              <span class="accent-white">Дизайнерские решения</span>
-            </h3>
+            <h3 class="accent-white">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
@@ -126,7 +114,7 @@
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <a href="">
+            <a href="" class="our-comand link">
               <img src="./images/foto-nk.jpg" alt="фото1" width="270" />
               <h3 class="name">Николай Кучеренко</h3>
               <p class="profeshn">Product Designer</p>
@@ -175,7 +163,7 @@
             </ul>
           </li>
           <li>
-            <a href="">
+            <a href="" class="our-comand link">
               <img src="./images/foto-oi.jpg" alt="фото1" width="270" />
               <h3 class="name">Ольга Иванова</h3>
               <p class="profeshn">Frontend Developer</p>
@@ -224,7 +212,7 @@
             </ul>
           </li>
           <li>
-            <a href="">
+            <a href="" class="our-comand link">
               <img src="./images/foto-ash.jpg" alt="фото1" width="270" />
               <h3 class="name">Андрей Шевченко</h3>
               <p class="profeshn">Marketing</p>
@@ -273,8 +261,8 @@
             </ul>
           </li>
           <li>
-            <a href="">
-              <img src="./images/foto-oi.jpg" alt="фото1" width="270" />
+            <a href="" class="our-comand link">
+              <img src="./images/foto-in.jpg" alt="фото1" width="270" />
               <h3 class="name">Иван Николаев</h3>
               <p class="profeshn">UI Designer</p>
             </a>
@@ -344,14 +332,14 @@
         <p>
           <a href="" class="logo"
             ><span class="accent">Web</span>
-            <span class="accent-white">Studio</span></a
+            <span class="logo-white">Studio</span></a
           >
         </p>
         <address class="our-address">
           г. Киев, Бульвар Леси Украинки, д. 26
         </address>
 
-        <address class="addr-cont">
+        <address>
           <a href="mailto:info@example.com" class="addr-cont"
             >info@example.com</a
           >
@@ -361,7 +349,7 @@
       </div>
 
       <div>
-        <b>присоединяйтесь</b>
+        <b class="address-join">присоединяйтесь</b>
         <ul>
           <li>
             <a
@@ -407,7 +395,8 @@
       </div>
 
       <div>
-        <b>Подпишитесь на рассылку</b><input type="text" placeholder="e-mail" />
+        <b class="address-join">Подпишитесь на рассылку</b
+        ><input type="text" placeholder="e-mail" />
         <button type="button" class="button-studio">
           Подписаться<img src="./images/icon-send.svg" alt="иконка отправки" />
         </button>
